@@ -1,6 +1,6 @@
 ## Title: LaTeX descriptive statistic reporting for survey data
 ## Author: Dustin Landers
-## Version: 1.0
+## Version: 0.9
 ## Date: July 20, 2013
 
 suRtex <- function(data,mean=FALSE,median=FALSE,sd=FALSE,n=TRUE,sub='',digits=2,startdoc=FALSE,enddoc=FALSE) {
