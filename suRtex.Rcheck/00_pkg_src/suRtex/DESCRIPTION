@@ -5,6 +5,6 @@ Version: 0.9
 Date: 2013-07-20
 Author: Dustin Landers
 Maintainer: Dustin Landers <dustin.landers@gmail.com>
-Description: suRtex was designed for easy descriptive statistic reporting of categorical survey data (such as likert scales) in LaTeX. suRtex takes a matrix or data frame and produces the LaTeX code necessary for a sideways table creation. Mean, median, standard deviation, and sample size are optional.
+Description: suRtex was designed for easy descriptive statistic reporting of categorical survey data (e.g., Likert scales) in LaTeX. suRtex takes a matrix or data frame and produces the LaTeX code necessary for a sideways table creation. Mean, median, standard deviation, and sample size are optional.
 License: GPL-3
-Packaged: 2013-07-21 16:09:55 UTC; dustin
+Packaged: 2013-07-21 19:33:51 UTC; dustin

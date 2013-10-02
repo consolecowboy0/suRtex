@@ -4,10 +4,12 @@
 LaTeX descriptive statistic reporting for survey data
 }
 \description{
-suRtex was designed for easy descriptive statistic reporting of categorical survey data (such as likert scales) in LaTeX. suRtex takes a matrix or data frame and produces the LaTeX code necessary for a sideways table creation. Mean, median, standard deviation, and sample size are optional.
+suRtex was designed for easy descriptive statistic reporting of categorical survey data (e.g., Likert scales) in LaTeX. suRtex takes a matrix or data frame and produces the LaTeX code necessary for a sideways table creation. Mean, median, standard deviation, and sample size are optional.
 }
 \usage{
-suRtex(data, mean = FALSE, median = FALSE, sd = FALSE, n = TRUE, sub = "", digits = 2, startdoc = FALSE, enddoc = FALSE)
+suRtex(data, mean = FALSE, median = FALSE, sd = FALSE, 
+n = TRUE, sub = "", digits = 2, startdoc = FALSE, 
+enddoc = FALSE)
 }
 \arguments{
   \item{data}{
@@ -30,7 +32,7 @@ logicals. If TRUE then additional LaTeX code is displayed to make a complete LaT
 Dustin Landers (http://www.intensely-curious.com)
 }
 \note{
-suRtex assumes all variables in the data frame or matrix have equivalent levels, such as likert scales.  
+suRtex assumes all variables in the data frame or matrix have equivalent levels (e.g., Likert scales).  
 }
 \keyword{ ~kwd1 }
 \keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

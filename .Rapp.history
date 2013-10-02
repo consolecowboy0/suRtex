@@ -1,0 +1,264 @@
+geterrmessage()
+geterrmessage
+stop()
+stop('Hey dustin its an error')
+class(data)
+source("/Users/dustin/Desktop/suRtex.R")
+suRtex(data)
+cls <- class(data)
+warning(paste('Columns in',cls,'have different length of levels.'))
+statlist <- c('')
+statlist
+statlist <- paste(statlist,'mean')
+statlist
+statlist <- c('dustin')
+statlist <- paste(statlist,'mean')
+statlist <- c('dustin')
+statlist <- paste(statlist,'mean')
+statlist
+source("/Users/dustin/Desktop/suRtex.R")
+data[,1] <- as.factor(data[,1])
+suRtex(data,mean=T)
+type(data[,1])
+is.factor(data[,1])
+is.numeric(data[,1])
+for (i in 1:ncol(data)) {
+if (is.numeric(data[,1])) {
+print('True')}}
+for (i in 1:ncol(data)) {
+if (is.factor(data[,1])) {
+print('True')}}
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(data,mean=T)
+warn('Hello')
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(data,mean=T)
+suRtex(data,mean=T,sd=T)
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(data,mean=T,sd=T)
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(data,mean=T,sd=T)
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(data,mean=T,sd=T)
+source("/Users/dustin/Desktop/suRtex2.R")
+data2 <- data[,1]
+class(data2)
+names(data)
+names(data2)
+data[,1]
+data2 <- data[,1]
+data2
+class(data)
+class(data2)
+is.vector(data2)
+is.matrix(data2)
+is.data.frame(data2)
+is.data.frame(data)
+is.matrix(data)
+suRtex(data2)
+test <- matrix(c(sample(1:7,100,replace=T)),ncol=4)
+test
+suRtex(test)
+class(test)
+if(class(test)!='matrix') {print('true')}
+if(class(test)=='matrix') {print('true')}
+test
+suRtex(tes)
+suRtex(test)
+test2 <- as.data.frame(test)
+suRtex(test2)
+class(test2)
+test2
+test
+class(test)
+source("/Users/dustin/Desktop/suRtex2.R")
+class(test) == "matrix"
+class(test) == 'matrix'
+suRtex(test)
+suRtex(data=test)
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(data=test)
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(test)
+class(test)
+test <- as.data.frame(test)
+rm(test2)
+suRtex(test)
+vec.test <- test[,1]
+vec.test
+suRtex(vec.test)
+rm(vec.test)
+suRtex(test)
+source("/Users/dustin/Desktop/suRtex.R")
+package.skeleton(name='suRtex',code_files='suRtex')
+package.skeleton(name='suRtex',code_files='suRtex.R')
+source("/Users/dustin/Desktop/suRtex2.R")
+suRtex(test)
+test <- matrix(c(sample(1:4,100,replace=T)),ncol=4)
+test
+suRtex(test)
+source("/Users/dustin/Desktop/suRtex.R")
+ls()
+class(suRtex)
+test <- matrix(c(sample(1:4,100,replace=T)),ncol=4)
+test
+suRtex(test)
+suRtex(test,startdoc=T,enddoc=T)
+suRtex(test,startdoc=F,enddoc=F)
+source("/Users/dustin/Desktop/suRtex.R")
+package.skeleton(name=suRtex,code_files='suRtex.R')
+package.skeleton(name='suRtex',code_files='suRtex.R')
+?lm
+?chisq.test
+?digits
+??digits
+?surfaceArea
+?SurfaceArea
+?sedit
+?lm
+?anova
+?texreg
+library(texreg)
+?texreg
+prompt()
+CMD check suRtex
+R CMD check suRtex
+library(suRtex)
+test <- matrix(c(sample(1:4,400,replace=F)),ncol=8)
+test <- matrix(c(sample(1:4,400,replace=T)),ncol=8)
+test
+suRtex(test)
+library(suRtex)
+?suRtex
+ls()
+names(fac13)
+mil <- read.csv(file='~/Desktop/Working Stuff -- Used to Be on Desktop/Military Table/Military Student Data.csv',header=T,stringsAsFactor=F)
+names(mil)
+data <- mil[,14:23]
+?suRtex
+suRtex
+names(data)
+for (i in 1:10) {
+names(data)[i] <- unlist(strsplit(names(data)[i],'....',fixed=TRUE))[2]}}
+for (i in 1:10) {
+names(data)[i] <- unlist(strsplit(names(data)[i],'....',fixed=TRUE))[2]}
+names(data)
+for (i in 1:10) {
+names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T)}
+names(data)
+names(data)[9] <- 'Tutoring'
+names(data)
+for (i in 1:10) {
+names(data)[i] <- gsub('   ',' ',names(data)[i],fixed=T)}
+names(data)
+names(mil)
+suRtex(data,median=T,digits=3,sub='What frequency do you use the following resources during your time at UNCW? ... ',startdoc=T,enddoc=T)
+suRtex
+names(data)
+data[,8]
+data[,9]
+suRtex
+?suRtex
+help(suRtex)
+names(mil)
+data <- mil[,26:31]
+names(data)
+for (i in 1:6) {
+names(data)[i] <- unlist(strsplit(names(data)[i],split='...',fixed=T))[2]}
+names(data)
+data <- mil[,26:31]
+for (i in 1:6) {
+names(data)[i] <- unlist(strsplit(names(data)[i],split='....',fixed=T))[2]}
+names(data)
+for (i in 1:6) {
+names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T)}
+names(data)
+suRtex
+?suRtex
+suRtex(data,mean=T,median=T,sd=T,startdoc=T,enddoc=T,sub='How military students spend time at the Randall library...')
+suRtex(data,mean=T,median=T,sd=T,startdoc=T,enddoc=T,sub='How military students spend time at the Randall library...',digits=4)
+names(mil)
+data <- mil[,14:23]
+names(data)
+for (i in 1:10) {
+names(data)[i] <- unlist(strsplit(names(data)[i],'....',fixed=T))[2]}
+names(data)
+for (i in 1:10) {
+names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T)}
+names(data)
+for (i in 1:10) {
+names(data)[i] <- gsub('   ',' ',names(data)[i],fixed=T)}
+names(data)
+names(data)[9] <- 'Tutoring'
+names(data)[5] <- 'Study Group: Graduate Student Led'
+names(data)[4] <- 'Study Group: Faculty Led'
+names(data)
+suRtex(data,mean=T,median=T,sd=T,digits=3,startdoc=T,sub='What frequency have you used the following university academic resources during your time here at UNCW?')
+names(mil)
+data2 <- mil[,36:41]
+names(data2)
+data2 <- mil[,26:31]
+names(data2)
+for (i in 1:6) {
+names(data)[i] <- unlist(strsplit(names(data)[i],'....',fixed=T))[2]}
+for (i in 1:6) {
+names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T)}
+for (i in 1:6) {
+}
+names(data2)
+for (i in 1:6) {
+names(data2)[i] <- unlist(strsplit(names(data2)[i],'....',fixed=T))[2]}
+for (i in 1:6) {
+names(data2)[i] <- gsub('.',' ',names(data2)[i],fixed=T)}
+names(data2)
+suRtex(data2,mean=T,median=T,sd=T,digits=3,sub='To what extent have you used the library for the following purposes?')
+names(mil)
+data <- mil[,34:43]
+names(data)
+for (i in 1:10) {
+names(data)[i] <- unlist(strsplit(names(data[i]),split='.........',fixed=T))[2]}
+for (i in 1:10) {
+names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T))[2]}
+for (i in 1:10) {
+names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T))}
+for (i in 1:10) {
+names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T)}
+names(data)
+suRtex(data,mean=T,median=T,sd=T,digits=3,sub='To what extent do you agree with the following statements about your level of preparation upon arriving at UNCW:#
+#
+In my first semester at UNCW, I felt prepared to . . .')
+names(mil)
+names(data)
+names(mil)
+data <- mil[,44:53]
+names(data)
+for (i in 1:length(data)) {#
+	names(data)[i] <- unlist(strsplit(names(data)[i],'.........',fixed=T))[2]#
+}#
+#
+for (i in 1:length(data)) {#
+	names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T)#
+}
+names(data)
+suRtex(data,mean=T,median=T,sd=T,digits=3,sub='To what extent do you agree with the following statements about your level of preparation upon arriving at UNCW: In my first semester at UNCW, I felt prepared to . . .')
+names(mil)
+data <- mil[,54:59]
+names(data)
+for (i in 2:length(data)) {#
+	names(data)[i] <- unlist(strsplit(names(data)[i],'....',fixed=T))[2]#
+}#
+#
+for (i in 2:length(data)) {#
+	names(data)[i] <- gsub('.',' ',names(data)[i],fixed=T)#
+}
+names(data)
+names(data)[1] <- 'Class discussions'
+names(data)
+suRtex(data,mean=T,median=T,sd=T,digits=3,enddoc=T,sub='To what extent do you participate in the following co-curricular experiences?')
+library(suRtex)
+?suRtex
+?lm
+?suRtex
+setwd('~/Documents/suRtex')
+library(suRtex)
+?suRtex
